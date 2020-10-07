@@ -1,0 +1,31 @@
+Phasmophobia Mods:
+
+Hunting Timer  = 25 second intervals ebfore a ghost can hunt again// from start of hunt
+
+Banshee picks target on level load
+
+Amateur sets ghost ability maximum
+
+Hunt 50 seconds on Pro
+
+35 seconds on Intermidiate
+
+Ghost goes back to fav room on hunting failure
+
+Ghost picks a target during each hunt (not outside)
+
+Doesn't do it if everyone is outside?
+
+Revenent 1.5x times faster in Hunting
+
+2x faster when see target
+
+Jinn is goes to idle if breaker on
+
+Demons add 15 to hunting multiplyer
+
+avg insanity plays a part in the hunting transition from idle // 1 in five chance to hunt if avgPlayerInsanity + huntingMultiplier is between 50 - 75
+
+//1 in 3 chance if the same is above 75 // needs to be above 50 to attack in the first place
+
+
