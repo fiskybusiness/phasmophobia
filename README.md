@@ -73,7 +73,7 @@ You can toggle whether or not the ghost selection screen exists with this toggle
 
 ```
 //off
-ghostSelector=false=false
+ghostSelector=false
 //on
-ghostSelector=false=true
+ghostSelector=true
 ```
