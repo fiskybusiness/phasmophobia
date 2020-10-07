@@ -16,6 +16,14 @@ Maximum Capacity you want your Server to Have
 ```
 serverPlayers=16
 ```
+### Player Name Attributes
+You can set the player Name in Lobby and color of the displayed name using HTML color codes
+
+```
+playerName=Poopy Butthole
+HTMLColor=#0000FF
+
+```
 
 ### numGhosts
 
@@ -47,4 +55,25 @@ Use these to control how many times you can use cameras or salt. This will not a
 ```
 numChargesSalt=100
 numChargesPhoto=9
+```
+
+### Ghost Hunting
+You can prevent the ghost from ever entering the hunting mode with this toggle
+
+
+```
+//off
+huntingEnabled=false
+//on
+huntingEnabled=true
+```
+### Ghost Select
+
+You can toggle whether or not the ghost selection screen exists with this toggle
+
+```
+//off
+ghostSelector=false=false
+//on
+ghostSelector=false=true
 ```
