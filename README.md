@@ -4,10 +4,10 @@ Making Multi-player rooms and other silly stuff availible to the user in a sligh
 
 ## Getting Started
 
-*Step 0: Make a copy of your original Assembly-CSharp.dll so you can easily switch back to non-modded game
-*Step 1: Copy the Assembly DLL and modconfig.cfg to your Phasmophobia install location, and overwrite the DLL (<SteamInstallLocation>\steamapps\common\Phasmophobia\Phasmophobia_Data\Managed)
-*Step 2: Configure the values in modconfig.cfg
-*Step 3: Start Game!
+* Step 0: Make a copy of your original Assembly-CSharp.dll so you can easily switch back to non-modded game
+* Step 1: Copy the Assembly DLL and modconfig.cfg to your Phasmophobia install location, and overwrite the DLL (<SteamInstallLocation>\steamapps\common\Phasmophobia\Phasmophobia_Data\Managed)
+* Step 2: Configure the values in modconfig.cfg
+* Step 3: Start Game!
 
 ### serverPlayers
 
@@ -19,7 +19,7 @@ serverPlayers=16
 
 ### numGhosts
 
-Number of Ghosts in the Level. Each will have Bone Evidence and it's own ghost room
+Number of Ghosts in the Level. Each will have Bone Evidence and its own ghost room
 
 ```
 numGhosts=20
