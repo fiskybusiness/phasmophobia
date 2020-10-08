@@ -5,6 +5,7 @@ PhasmoPhobia Changelog V1.02
 -Added Control to the Minimum average and Maximum Average Sanity a Ghost Will Hunt after
 -Added Control for Sanity Drainer
 -Hotfix to add back Money Button
+-Added Run/Walk Speed
 
 TODO:
 Try to take away other players power to kick if not host

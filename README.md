@@ -30,6 +30,19 @@ HTMLColor=#0000FF
 
 ```
 
+### run/walk Speed
+You can set the player's run and walk speed but using a decimal number. Please note it porbably shouldn't go higher than ten, and making it negative will make you go backwards. Moonwalking is dangerous
+```
+//defaults
+runSpeed=1.2
+walkSpeed=1.6
+
+//gotta go fast
+
+runSpeed=3.5
+walkSpeed=5.5
+```
+
 ### numGhosts
 
 Number of Ghosts in the Level. Each will have Bone Evidence and its own ghost room
