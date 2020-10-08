@@ -77,3 +77,19 @@ ghostSelector=false
 //on
 ghostSelector=true
 ```
+
+### Hoop Counter
+
+```
+//Over 9000
+hoopCunter=9001
+```
+
+### walkieAllowedDuringHunts
+
+```
+//off
+walkieAllowedDuringHunts=false
+//on
+walkieAllowedDuringHunts=true
+```
