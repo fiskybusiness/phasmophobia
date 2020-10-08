@@ -121,7 +121,5 @@ sanityModifier=25
 //normal drain rate
 sanityModifier=0.12
 
-
-//NOTE THE LOW MUST ALWAYS BE LOWER THAN HIGH -- THE GHOST WONT HUNT OTHERWISE -- probably
 ```
 
