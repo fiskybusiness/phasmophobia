@@ -1,17 +1,9 @@
-Changelog v1.01
+PhasmoPhobia Changelog V1.02
+-Removed Player interactions after death as it was causing confusion, and kinda buggy.
+-Added Toggle for Using Silly Names and Tooltips
+-Added Custom tooltips and Ghost Names
+-Added Control to the Minimum average and Maximum Average Sanity a Ghost Will Hunt after
+-Added Control for Sanity Drainer
 
--Dying won't lose you inventory items
--Dead players can interact with objects
--Hoop Counter now configurable
--Main door should always be unlocked
--add 100 money and xp with store button
--physics of ghost throwing object way up
--added toggle if walkie talkie is allowed during hunts
--Hopefully fixed the death bug with multiple ghosts
--no fog when Dead
-
-TODO: Add Sanity Drain toggle and Rate customization
-TODO: Make death fog and such configurable
-
-
-
+TODO:
+Try to take away other players power to kick if not host

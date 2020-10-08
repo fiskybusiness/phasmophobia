@@ -9,6 +9,11 @@ Making Multi-player rooms and other silly stuff availible to the user in a sligh
 * Step 2: Configure the values in modconfig.cfg
 * Step 3: Start Game!
 
+### Known Bugs
+
+* The Game will likely break when multiple players die at the same time. Having tens of ghosts is risky in this sense. This is due to how the game handles death and would probably require a full re-write to support fully. Consider games with 3+ Ghosts to be "for fun"
+
+
 ### serverPlayers
 
 Maximum Capacity you want your Server to Have
@@ -78,18 +83,45 @@ ghostSelector=false
 ghostSelector=true
 ```
 
-### Hoop Counter
+### ToolTips and Custom GhostNames
+To add a custom tooltip or GhostName add a row in the .cfg file with the associated prefix. If there is no records, or the "useCustomNames" flag is set to false it will default to the original tooltips and Names.
 
 ```
-//Over 9000
-hoopCunter=9001
-```
-
-### walkieAllowedDuringHunts
-
-```
-//off
-walkieAllowedDuringHunts=false
+//adding Names
+ghostName=Fisky Business
+ghostName=SimpleFlipz
 //on
-walkieAllowedDuringHunts=true
+tooltip=Idk Whatever meme you wanna put bro
+
+//use custom Names
+useCustomNames=true
 ```
+
+### Hunting Sanity
+You can control the minimum threshold for the average (in)sanity [100 - current Sanity = insanity] of all players before a Ghost is eligble to Hunt. Normally this Value is 50, with an upper threshold of 75 before there's a 1/3 chance the Ghost will do a hunt the next action cycle. Lower this value for the ghost to hunt earlier in the level and more often
+
+```
+//hunts almost immediately
+huntingSanityLow=0
+huntingSanityHigh=10
+
+//hunts almost never
+huntingSanityLow=75
+huntingSanityHigh=90
+
+//NOTE THE LOW MUST ALWAYS BE LOWER THAN HIGH -- THE GHOST WONT HUNT OTHERWISE -- probably
+```
+
+### Sanity Modifier
+You can edit the rate at which your sanity drains with sanityModifier -- this will only effect the drain after the setup period
+```
+//drains reallyt fast
+sanityModifier=25
+
+//normal drain rate
+sanityModifier=0.12
+
+
+//NOTE THE LOW MUST ALWAYS BE LOWER THAN HIGH -- THE GHOST WONT HUNT OTHERWISE -- probably
+```
+
