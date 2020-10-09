@@ -95,6 +95,16 @@ ghostSelector=false
 //on
 ghostSelector=true
 ```
+### Ghost Appear
+
+You can toggle whether or not the ghost always is visible during the game
+
+```
+//off
+ghostAlwaysAppear=false
+//on
+ghostAlwaysAppear=true
+```
 
 ### ToolTips and Custom GhostNames
 To add a custom tooltip or GhostName add a row in the .cfg file with the associated prefix. If there is no records, or the "useCustomNames" flag is set to false it will default to the original tooltips and Names.
@@ -128,11 +138,23 @@ huntingSanityHigh=90
 ### Sanity Modifier
 You can edit the rate at which your sanity drains with sanityModifier -- this will only effect the drain after the setup period
 ```
-//drains reallyt fast
+//drains really fast
 sanityModifier=25
 
 //normal drain rate
 sanityModifier=0.12
+
+```
+### Camera Shutter Speed
+You can edit the cooldown for the handcamera taking pictures **Probably will crash clients if the cooldown is too fast**
+
+
+```
+//normal
+cameraShutterSpeed=2
+
+//Sanic
+cameraShutterSpeed=0.2
 
 ```
 

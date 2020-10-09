@@ -1,11 +1,7 @@
-PhasmoPhobia Changelog V1.02
--Removed Player interactions after death as it was causing confusion, and kinda buggy.
--Added Toggle for Using Silly Names and Tooltips
--Added Custom tooltips and Ghost Names
--Added Control to the Minimum average and Maximum Average Sanity a Ghost Will Hunt after
--Added Control for Sanity Drainer
--Hotfix to add back Money Button
--Added Run/Walk Speed
+PhasmoPhobia Changelog V1.03
+-Added a ghost appear/disappear toggle
+-Added timer control for hand camera
 
 TODO:
 Try to take away other players power to kick if not host
+Ghost interactability when dead
