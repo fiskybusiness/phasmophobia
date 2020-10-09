@@ -1,7 +1,28 @@
-PhasmoPhobia Changelog V1.03
+Changelog V1.03
 -Added a ghost appear/disappear toggle
 -Added timer control for hand camera
 
 TODO:
 Try to take away other players power to kick if not host
-Ghost interactability when dead
+Spawn More items in bigger lobbies
+
+Changelog v1.02
+-HOTFIX: Added Back Money Button
+-Removed Player interactions after death as it was causing confusion, and kinda buggy.
+-Added Toggle for Using Silly Names and Tooltips
+-Added Customization of tooltips and Ghost Names
+-Added Control to the Minimum average and Maximum Average Sanity a Ghost Will Hunt after
+-Added Control for Sanity Drainer
+-Fixed No-Name Showing up Bug
+
+Changelog v1.01
+
+-Dying won't lose you inventory items
+-Dead players can interact with objects
+-Hoop Counter now configurable
+-Main door should always be unlocked
+-add 100 money and xp with store button
+-physics of ghost throwing object way up
+-added toggle if walkie talkie is allowed during hunts
+-Hopefully fixed the death bug with multiple ghosts
+-no fog when Dead
